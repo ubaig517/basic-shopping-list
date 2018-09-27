@@ -1,0 +1,32 @@
+ul {
+  width: 250px;
+  margin: 20px auto;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  line-height: 2;
+  font-size: 1rem;
+  border: 1px solid #999;
+  padding: .3rem;
+
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li > button {
+  float: right;
+  margin-top: 2px;
+  cursor: pointer;
+  background-color: #EF9A9A;
+  border-radius: 10px;
+  font-size: .8rem;
+}
