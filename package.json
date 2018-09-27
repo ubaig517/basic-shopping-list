@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ubaig517/basic-shopping-list/issues"
   },
-  "homepage": "https://github.com/ubaig517/basic-shopping-list#readme"
+  "homepage": "https://ubaig517.github.io/basic-shopping-list",
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
+  }
 }
