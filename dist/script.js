@@ -29,15 +29,6 @@ function addListAfterEnter(event) {
   }
 }
 
-// function getEventTarget(e){
-// 	e = e || window.event;
-// 	return e.target || e.srcElement;
-// }
-//
-// ul.onclick = function(event){
-// 	var target = getEventTarget(event);
-// 	target.classList.toggle("done");
-// }
 ul.addEventListener("click", function(e) {
   if(e.target.nodeName == "LI"){
     e.target.classList.toggle("done");

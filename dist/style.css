@@ -1,11 +1,17 @@
 ul {
   width: 250px;
+  margin: 20px auto;
+  list-style: none;
+  padding: 0;
 }
 
 li {
   cursor: pointer;
   line-height: 2;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  border: 1px solid #999;
+  padding: .3rem;
+
 }
 
 li:hover {
@@ -18,9 +24,9 @@ li:hover {
 
 li > button {
   float: right;
-  margin-top: 7px;
+  margin-top: 2px;
   cursor: pointer;
   background-color: #EF9A9A;
-  padding: 5px;
   border-radius: 10px;
+  font-size: .8rem;
 }
